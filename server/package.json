@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "npm server.js",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run client\" \"npm run start\""
   },
